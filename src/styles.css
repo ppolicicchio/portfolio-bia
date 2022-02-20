@@ -54,8 +54,11 @@ p {
 }
 
 .subtext {
+    display: flex;
     font-size: 15px;
     font-weight: 300;
+    flex-direction: column;
+    flex-grow: 3;
 }
 
 .about-text {
